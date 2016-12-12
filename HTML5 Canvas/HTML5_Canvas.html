@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 Canvas</title>
+
+<script src="rectCanvas.js" type="text/javascript" ></script>
+<script src="linesCirclesCanvas.js" type="text/javascript" ></script>
+<script src="curvesCanvas.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+
+function setup() {
+	rectSetup();
+	linesCirclesSetup(); 
+	curvesSetup(); 	
+}
+
+</script>
+
+
+</head>
+
+<body onload="setup();">
+
+	<canvas id="rectCanvas" width="300" height="300" style="margin:100px;"></canvas>
+    
+    <canvas id="linesCirclesCanvas" width="300" height="300" style="margin:100px;"></canvas>
+    
+    <canvas id="curvesCanvas" width="300" height="300" style="margin:100px;"></canvas>
+    
+</body>
+</html>
